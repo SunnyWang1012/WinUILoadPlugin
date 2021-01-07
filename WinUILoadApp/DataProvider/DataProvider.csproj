@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows10.0.18362.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>
+    <RootNamespace>DataProvider</RootNamespace>
+    <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\yuchi\source\repos\WinUILoadApp\DataProvider\DataProvider.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WinUI" Version="3.0.0-preview3.201113.0" />
+  </ItemGroup>
+</Project>
