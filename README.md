@@ -17,3 +17,7 @@ The code sturctures are as followings
 
 ## Known Issue
 Currently, this solution can't run successfully when dynamically loading HelloPlugin. The exceptop occurs inside the constructor of HelloUserControl. 
+
+## Update
+Upload WPF dynamically load
+
